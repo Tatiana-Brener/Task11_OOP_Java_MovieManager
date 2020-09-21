@@ -6,9 +6,9 @@ import ru.netology.domain.Movie;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-class MovieManagerRandomLengthTest {
+class AfishaMovieManagerRandomLengthTest {
 
-    private MovieManager manager = new MovieManager(5);
+    private AfishaMovieManager manager = new AfishaMovieManager(5);
 
     private Movie first = new Movie(1, "firstUrl", "first", "action");
     private Movie second = new Movie(2, "secondUrl", "second", "cartoon");

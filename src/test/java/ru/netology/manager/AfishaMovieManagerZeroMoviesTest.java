@@ -5,9 +5,9 @@ import ru.netology.domain.Movie;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-class MovieManagerZeroMoviesTest {
+class AfishaMovieManagerZeroMoviesTest {
 
-    private MovieManager manager = new MovieManager();
+    private AfishaMovieManager manager = new AfishaMovieManager();
 
     @Test
     public void shouldHaveZeroMovies() {

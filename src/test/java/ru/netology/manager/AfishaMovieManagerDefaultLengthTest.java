@@ -7,9 +7,9 @@ import ru.netology.domain.Movie;
 import static org.junit.jupiter.api.Assertions.*;
 
 
-class MovieManagerDefaultLengthTest {
+class AfishaMovieManagerDefaultLengthTest {
 
-    private MovieManager manager = new MovieManager();
+    private AfishaMovieManager manager = new AfishaMovieManager();
 
     private Movie first = new Movie(1, "firstUrl", "first", "action");
     private Movie second = new Movie(2, "secondUrl", "second", "cartoon");

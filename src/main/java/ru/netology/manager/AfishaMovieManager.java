@@ -2,15 +2,15 @@ package ru.netology.manager;
 
 import ru.netology.domain.Movie;
 
-public class MovieManager {
+public class AfishaMovieManager {
     private Movie[] movies = new Movie[0];
     private int afishaLenght = 10;
 
-    public MovieManager(int afishaLenght) {
+    public AfishaMovieManager(int afishaLenght) {
         this.afishaLenght = afishaLenght;
     }
 
-    public MovieManager() {
+    public AfishaMovieManager() {
     }
 
     public void addMovie(Movie addedMovie) {
