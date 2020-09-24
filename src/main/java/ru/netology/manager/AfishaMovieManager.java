@@ -7,6 +7,7 @@ public class AfishaMovieManager {
     private int afishaLenght = 10;
 
     public AfishaMovieManager(int afishaLenght) {
+
         this.afishaLenght = afishaLenght;
     }
 
