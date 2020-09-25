@@ -12,14 +12,13 @@ import static org.junit.jupiter.api.Assertions.*;
 import static org.mockito.Mockito.*;
 
 @ExtendWith(MockitoExtension.class)
-public class AfishaMovieManagerWithRepositoryTest {
+public class AfishaMovieManagerWithRepositoryDefaultLengthTest {
 
     @Mock
     private AfishaMovieRepository movieRepository;
 
     @InjectMocks
     private AfishaMovieManagerWithRepository movieManagerWithRepository;
-
     private Movie first = new Movie(1, "firstUrl", "first", "action");
     private Movie second = new Movie(2, "secondUrl", "second", "cartoon");
     private Movie third = new Movie(3, "thirdUrl", "third", "comedy");
